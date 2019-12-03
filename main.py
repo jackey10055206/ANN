@@ -72,3 +72,41 @@ def convert2array(fruit):
 	if NEURON = 4:
 		if fruit == 'w':
 			return[[1],[0],[0],[0]]
+		elif fruit == 'B':
+			return[[0],[1],[0],[0]]
+		elif fruit == 'P':
+			return[[0],[0],[1],[0]]
+		elif fruit == 'O':
+			return[[0],[0],[0],[1]]
+	else:
+		if DATA = "DATA1":
+			if fruit == 'w':
+				return[[0],[0]]
+			elif fruit == 'B':
+				return[[0],[1]]
+			elif fruit == 'P':
+				return[[1],[0]]
+			elif fruit == 'O':
+				return[[1],[1]]
+
+		if DATA = "DATA2"
+			if fruit == 'w':
+				return[[1],[1]]
+			elif fruit == 'B':
+				return[[0],[1]]				
+			elif fruit == 'P':
+				return[[0],[0]]
+			elif fruit == 'O':
+				return[[1],[0]]
+
+
+
+
+
+
+
+
+
+
+
+
