@@ -80,7 +80,7 @@ def convert2array(fruit):
 			return[[0],[0],[0],[1]]
 	else:
 		if DATA = "DATA1":
-			if fruit == 'w':
+			if fruit == 'W':
 				return[[0],[0]]
 			elif fruit == 'B':
 				return[[0],[1]]
@@ -90,7 +90,7 @@ def convert2array(fruit):
 				return[[1],[1]]
 
 		if DATA = "DATA2"
-			if fruit == 'w':
+			if fruit == 'W':
 				return[[1],[1]]
 			elif fruit == 'B':
 				return[[0],[1]]				
@@ -99,12 +99,52 @@ def convert2array(fruit):
 			elif fruit == 'O':
 				return[[1],[0]]
 
+def convert2char(a)
 
+	if NEURON == 4:
+		if np.array_equal(a,[[1],[0],[0][,0]]):
+			return 'W'
+		elif np.array_equal(a,[[0],[1],[0][,0]]):
+			return 'B'
+		elif np.array_equal(a,[[0],[0],[1][,0]]):
+			return 'P'
+		elif np.array_equal(a,[[0],[0],[0],[1]]):
+			return 'O'
 
+	else:
+		if DATA == "DATA1"
+			if np.array_equal(a,[[0],[0]]):
+				return 'W'
+			if np.array_equal(a,[[0],[1]]):
+				return 'B'
+			if	np.array_equal(a,[[1],[0]]):
+				return 'P'
+			if np.array_equal(a,[[1],[1]]):		
+				return 'O'
+		elif DATA == "DATA2":
+			if np.array_equal(a,[[1],[1]]):	
+				return 'W'
+			if np.array_equal(a,[[0],[1]]):
+				return "B"
+			if np.array_equal(a,[[0],[0]]):
+				return "P"
+			if np.array_equal(a,[[1],[0]]):
+				return "O"
 
+def print2file(out)
+	print(out)
+	print(out,file=output)
 
+def commandline():
 
+	parser = argrapse.ArgumentParser()
+	parser.add_argument('Data',choice=['DATA1','DATA2'])
+	parser.add_argument('NeuronNum',choice=['2','4'])
+	parser.add_argument('dimension',choice=['2','3'])
 
+	return parser.parse_args()
+
+	
 
 
 
