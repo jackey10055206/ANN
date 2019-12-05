@@ -1,0 +1,61 @@
+Using Data2
+The weight will be set to 2 x 2
+2-Dimension perception
+
+W: [[-7.52523205  3.22215346]
+ [-8.68586983 -1.53163654]]
+
+B: [[0.60917982]
+ [6.03855908]]
+
+epoch 1 has 2 errors
+epoch 2 has 0 errors
+Total epoch: 2
+
+W: [[ 5.65806795  2.86225346]
+ [-4.57856983  4.83306346]]
+
+B: [[-0.39082018]
+ [ 7.03855908]]
+
+Result: 
+1 W
+2 P
+3 B
+4 B
+5 P
+6 W
+7 O
+8 P
+9 O
+10 O
+11 W
+12 B
+13 B
+14 O
+15 P
+16 P
+17 B
+18 W
+19 B
+20 O
+21 B
+22 P
+23 B
+24 W
+25 O
+26 O
+27 O
+28 B
+29 O
+30 O
+31 W
+32 W
+33 O
+34 B
+35 P
+36 W
+37 B
+38 P
+39 W
+40 P

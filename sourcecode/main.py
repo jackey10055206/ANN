@@ -175,7 +175,7 @@ def usage(args):
 		DIMENSION = int(args.Dimension)
 		TRAINFILENAME = TRAINFILENAME + "training_data2.txt"
 		TESTFILENAME = TESTFILENAME + "testing_data2.txt"
-		output = open("DATA2_output_{}N_{}A.txt".format(NEURON,DIMENSION),"w")	
+		output = open("Data2_output_{}N_{}A.txt".format(NEURON,DIMENSION),"w")	
 
 	print2file('Using {}\nThe weight will be set to {} x {}'.format(DATA,NEURON,DIMENSION))
 
@@ -207,10 +207,10 @@ if __name__ == "__main__":
 		for data in trainData:
 			
 			shape, texture, weight, fruit = data.split()
-			print(shape)
-			print(texture)
-			print(weight)
-			print(fruit)
+			# print(shape)
+			# print(texture)
+			# print(weight)
+			# print(fruit)
 			
 			if DIMENSION == 3:
 				p = np.array([[float(shape)], [float(texture)], [float(weight)]])

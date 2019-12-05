@@ -1,0 +1,72 @@
+Using Data1
+The weight will be set to 4 x 2
+4-Dimension perception
+
+W: [[ 7.27531407  5.92810778]
+ [ 9.45126401  9.37095617]
+ [ 6.73614023 -4.44055211]
+ [-3.15267254 -2.20996575]]
+
+B: [[9.47471858]
+ [7.10576447]
+ [0.68137329]
+ [7.35942134]]
+
+epoch 1 has 8 errors
+epoch 2 has 6 errors
+epoch 3 has 6 errors
+epoch 4 has 6 errors
+epoch 5 has 3 errors
+epoch 6 has 2 errors
+epoch 7 has 2 errors
+epoch 8 has 3 errors
+epoch 9 has 2 errors
+epoch 10 has 3 errors
+epoch 11 has 1 errors
+epoch 12 has 3 errors
+epoch 13 has 2 errors
+epoch 14 has 2 errors
+epoch 15 has 2 errors
+epoch 16 has 3 errors
+epoch 17 has 2 errors
+epoch 18 has 2 errors
+epoch 19 has 2 errors
+epoch 20 has 3 errors
+epoch 21 has 1 errors
+epoch 22 has 3 errors
+epoch 23 has 2 errors
+epoch 24 has 1 errors
+epoch 25 has 0 errors
+Total epoch: 25
+
+W: [[ 3.27531407  4.92810778]
+ [ 3.45126401 -2.62904383]
+ [-1.26385977  2.55944789]
+ [-3.15267254 -5.20996575]]
+
+B: [[-7.52528142]
+ [-0.89423553]
+ [-4.31862671]
+ [-2.64057866]]
+
+Result: 
+1:
+[[1.]
+ [1.]
+ [0.]
+ [0.]]
+2:
+[[0.]
+ [1.]
+ [0.]
+ [1.]]
+3:
+[[0.]
+ [0.]
+ [0.]
+ [0.]]
+4:
+[[0.]
+ [0.]
+ [0.]
+ [1.]]
